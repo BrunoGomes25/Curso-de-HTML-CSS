@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Tags de texto</title>
+    <style>
+        .baixinha{
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h1>principais tags texto</h1>
+    <!-- a tag <b> deixa em negrito e a tag <strong> deixa
+        o texto em negrito tbm porem tem um papel mais semantico-->
+    <p>teste de <b>tags</b> em <strong>negrito</strong></p>
+    <p>teste de <i>tags</i> em <em>italico</em></p>
+    <!-- a Tag <a> representa um link q da acesso a outra pagina-->
+    <a href="Estrutura.html">curso do brunao</a>
+    <!-- a tag <img> é usada para adcionar imagens-->
+    <a target="_blank"   href="headings.html"><img width="50px" height="50px" src="https://play-lh.googleusercontent.com/Cr8aZMSkHs7DsBX9_xIv3oODyZ51KnhUUFSeAY4hv07cgxT9ajOvUsRZWdZpcy3Tlyo" alt=""></a>
+    <!-- a tag <del> cria uma linha em uma palavra errada e a tag <ins> insere uma palavra sublinhada nova-->
+    <p>meu <del>amigu</del> <ins>amigo</ins> caiu</p>
+    <!-- a tag <small> deixa uma palavra menor-->
+    <p class="baixinha"> como ela é <small>baixinha</small></p>
+    <!-- a tag <sup> serve para subir uma palavra-->
+    <p>2<sup>2</sup></p>
+    <!-- a tag <sub> serve para descer uma palavra-->
+    <p>H<sub>2</sub>O</p>
+    <!-- a tag <br> serve para quebrar uma linha-->
+    <p>Brunao <br> muito <br> estudioso</p>
+    <!-- a tag <hr> cria uma linha horizontal-->
+    <hr>
+    <!-- a tag blockquote cria uma caixa de texto pre formatada-->
+    <blockquote>
+        hello my friends
+    </blockquote>
+    <!-- a tag <pre> faaz com que o conteudo dentro dela mantenha a formatação e 
+        a tag <code> é uma fonte para codigos-->
+    <pre>
+        <code>
+def fatorial(n):
+    """Função para calcular o fatorial de um número"""
+    if n == 0:
+        return 1
+    else:
+        return n * fatorial(n - 1)
+        </code>
+    </pre>
+    <!-- a tag <spam> é um conteiner generico in line-->
+    <p>hello my <span style="color: green;">friends</span></p>
+    <!-- a tag <div> é um conteiner generico in block-->
+    <div>
+        <p>hello my friends</p>
+    </div>
+</body>
+</html>
